@@ -1,0 +1,162 @@
+.action-items-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc; 
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.action-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+}
+
+.action-table th,
+.action-table td {
+  padding: 10px;
+  text-align: left;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.action-table th:first-child,
+.action-table td:first-child {
+  border-left: 1px solid #ddd;
+}
+
+.action-table th:last-child,
+.action-table td:last-child {
+  border-right: 1px solid #ddd;
+}
+
+.action-table td:first-child {
+  word-break: break-word;
+  white-space: normal;
+  max-width: 300px;
+}
+
+.status-label {
+  padding: 4px 10px;
+  border-radius: 5px;
+  color: white;
+  font-size: 13px;
+  display: inline-block;
+}
+
+.status-pending {
+  background-color: rgba(164, 159, 12, 1);
+}
+
+.status-inprogress {
+  background-color: rgba(234, 110, 50, 1);
+}
+
+.status-completed {
+  background-color: rgba(41, 185, 95, 1);
+}
+
+.status-overdue {
+  background-color: #d9534f;
+}
+
+.assigned-person {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.avatar {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.role {
+  font-size: 12px;
+  color: gray;
+}
+
+.action-dropdown {
+  position: relative;
+}
+
+.dots {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  right: 0;
+  top: 20px;
+  min-width: 80px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+}
+
+.action-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+.bottom-dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 15px;
+}
+
+.bottom-dropdown .dots {
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+}
+
+.bottom-dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  right: 0;
+  top: 25px;
+  min-width: 120px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  z-index: 999;
+}
+
+.bottom-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.bottom-dropdown .dropdown-item {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.bottom-dropdown .dropdown-item:hover {
+  background-color: #f0f0f0;
+}

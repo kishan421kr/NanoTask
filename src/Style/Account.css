@@ -1,0 +1,28 @@
+#AccountMainDiv{
+    background-color: white;
+    position: absolute;
+    right: 0;
+}
+#AccountInnerDiv{
+    padding: 20px;
+    width: 196px;
+}
+#AccountInnerDiv div{
+    border: 1px solid rgba(217, 217, 217, 1);
+    border-collapse: collapse;
+      font-size: 13px;
+    font-weight: 600;
+    color: rgba(103, 103, 103, 1);
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+#AccountInnerDiv div:not(:first-child) {
+    border-top: none;
+}
+#AccountInnerDiv div:hover{
+    background-color: rgba(217, 217, 217, 1);
+}

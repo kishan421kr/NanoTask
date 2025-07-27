@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navbar from './Components/Navbar'
-import SideNavbar from './Components/SideNavbar'
+import PageHader from './Components/PageHeader'
+
 
 
 
@@ -9,7 +10,8 @@ function App() {
   return (
     <>
      <Navbar/>
-     {/* <SideNavbar/> */}
+     {/* <PageHader/> */}
+     
     </>
   )
 }

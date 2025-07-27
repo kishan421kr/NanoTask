@@ -1,0 +1,93 @@
+#PageHaderMainDiv{
+    background-color: #f0f0f0;
+    padding: 20px;
+    
+    height: max-content;
+}
+#PageHaderMainDivActive{
+    width: 76%;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+#PageFirstPart{
+    display:flex;
+    justify-content: space-between;
+}
+#PageHaderHeading{
+    font-weight: 600;
+    font-size: 18px;
+}
+#ExportBTn{
+    padding: 6px 24px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgba(175, 99, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+#NewMeetingNBtn{
+    padding: 6px 24px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    cursor: pointer;
+}
+#HeadFirstAndSecondDiv{
+    color: rgba(130, 16, 251, 1);
+    font-weight: 500;
+    font-size: 12px;
+    display: flex;
+    justify-content: start;
+    gap: 4px;
+    align-items: center;
+    padding: 10px 0px;
+}
+#HeadSecondInnerDiv{
+    background-color: white;
+
+    display: flex;
+    justify-content: start;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid rgba(217, 217, 217, 1);
+    border-radius: 5px;
+    color: rgba(103, 103, 103, 1);
+    font-size: 14px;
+}
+#PageSecondPart{
+    margin: 10px 0px;
+}
+.PageSecondDivText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.PageSecondSpan{
+    padding: 3px 5px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgba(103, 103, 103, 1);
+}
+.PageSecondDivText:hover{
+    background-color: rgba(234, 217, 255, 1);
+    color: rgba(103, 8, 204, 1);
+}
+
+
+/* .PageSecondSpan:hover{
+    background-color:rgba(103, 8, 204, 1) ;
+    color: white;
+} */

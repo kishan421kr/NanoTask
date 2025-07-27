@@ -1,0 +1,50 @@
+#ViewDisplayMainDiv{
+    background-color: white;
+    position: absolute;
+    right: 173px;
+}
+#ViewDisplayInnerDiv{
+    width: 226px;
+    display: flex;
+    flex-direction: column;
+
+}
+.ViewClass{
+     font-size: 13px;
+    font-weight: 600;
+    color: rgba(103, 103, 103, 1);
+    background-color: white;
+    padding: 5px 5px 5px 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+  .ViewClass:hover{
+    background-color: rgba(217, 217, 217, 1);
+
+  }  
+.MView{
+    width: 10px;
+    height: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    background-color: rgba(50, 178, 69, 1);
+}
+.ViewText{
+    font-size: 13px;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.ViewText span{
+    font-size: 10px;
+    color: rgba(149, 149, 149, 1);
+    
+}

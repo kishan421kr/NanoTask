@@ -1,0 +1,117 @@
+#BuyerMeetingMainDiv{
+    
+}
+#BuyerMeetingInnerDiv{
+    /* padding: 10px; */
+    border: 1px solid rgba(217, 217, 217, 1);
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+}
+#BuyerMeetingHead{
+    padding: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+.BuyerMeetingHeadDiv{
+    color: rgba(149, 149, 149, 1);
+    border: 1px solid rgba(236, 236, 236, 1);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.bu{
+    color: rgba(149, 149, 149, 1);
+    font-weight: 500;
+}
+#tableHeadings{
+    text-align: start;
+    padding: 10px 19px;
+    background-color:rgba(245, 245, 245, 1) ;
+    border: 1px solid rgba(217, 217, 217, 1);
+    color: rgba(103, 103, 103, 1);
+    font-weight: 600;
+}
+.TheadItem{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.TheadItem div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.TypDiv{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}
+.ArrowIcons{
+    padding: 4px;
+    border-radius: 5px;
+    color: rgba(103, 8, 204, 1);
+    background-color: rgba(255, 225, 211, 1);
+}
+#BodyData{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    padding: 10px 19px;
+    border: collapse;
+    /* background-color:rgba(245, 245, 245, 1) ; */
+    border: 1px solid rgba(217, 217, 217, 1);
+}
+#BuyerBtn{
+    border: 1px solid rgba(41, 185, 95, 1);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(41, 185, 95, 1);
+    background-color: rgba(184, 238, 204, 1);
+}
+#BuyeBtnOffline{
+    border: 1px solid rgba(103, 103, 103, 1);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgba(103, 103, 103, 1);
+    background-color: rgba(217, 217, 217, 1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;    
+}
+
+th, td {
+  border: 1px solid #ececec;
+  padding: 8px 12px;
+  white-space: nowrap;     
+  height: auto;           
+}
+
+
+thead th {
+  position: sticky;
+  top: 0;
+  background: #eaeaea;
+  z-index: 2;
+}
+
+
+td:last-child, th:last-child {
+  position: sticky;
+  right: 0;
+  background: #fff;
+  z-index: 3;
+}
+

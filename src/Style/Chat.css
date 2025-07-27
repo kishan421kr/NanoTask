@@ -1,0 +1,141 @@
+.box {
+  position: absolute;
+  top: 100px;
+  right: 20px;
+  z-index: 100;
+  /* height: 475px;
+  width: 375px; */
+}
+
+.note {
+  font-size: 13px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: #fff;
+  width: 310px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.top {
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;           /* thoda padding */
+  border: 1px solid #ddd;     
+  background-color: #fff;
+}
+
+.title {
+  font-size: 18px;
+  color: #222;
+}
+
+.new {
+  background:rgba(184, 238, 204, 1);
+  color: rgba(41, 185, 95, 1);
+  font-size: 11px;
+  font-weight: 600px;
+  padding: 4px 15px;
+  border-radius: 5px;
+  border: 1px solid rgba(41, 185, 95, 1);
+  
+}
+
+.rows {
+  display: flex;
+  flex-direction: column;
+}
+
+/* UPDATED: poore row ke charo taraf border */
+.row {
+  display: flex;
+  align-items: flex-start;
+  padding: 12px;
+  position: relative;
+  border: 1px solid #ddd;
+  border-top: none;    /* poora border */
+  /* border-radius: 6px;        thoda rounded corners */
+  /* margin-bottom: 10px;       rows ke beech gap */
+}
+
+
+.img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  margin-right: 10px;
+  /* no border or padding here */
+}
+
+.info {
+  flex: 1;
+}
+
+.msg {
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0;
+  color: #333;
+  /* no border here */
+}
+
+.text {
+  font-size: 12px;
+  color: #555;
+  margin: 2px 0;
+}
+
+.link {
+  color: #3b82f6;
+  text-decoration: none;
+}
+
+.time {
+  font-size: 11px;
+  color: #aaa;
+  margin-top: 0;
+}
+
+.icon {
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  font-size: 14px;
+  color: #999;
+  cursor: pointer;
+  padding: 4px; 
+}
+
+.icon:hover {
+  color: red;
+}
+
+.btn {
+  width: 100%;
+  background: #8000ff;
+  color: #fff;
+  font-size: 14px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+  border-top: 1px solid #ccc;
+}
+
+.btn:hover {
+  background: #5e00c4;
+}
+
+.buttonborder {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-top: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}

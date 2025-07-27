@@ -1,0 +1,22 @@
+#ActionMainDiv{
+    position: absolute;
+    right: 20px;
+    background-color: white;
+}
+#ActionInnerDiv{
+    width: 133px;
+}
+#ActionInnerDiv div{
+     font-size: 13px;
+    font-weight: 600;
+    color: rgba(103, 103, 103, 1);
+    padding: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+#ActionInnerDiv div:hover{
+     background-color: rgba(217, 217, 217, 1);
+}
