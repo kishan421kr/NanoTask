@@ -32,4 +32,13 @@
     border-radius: 6px;
     height: 40px;
     width: 388px;
+    font-size: 12px;
+    padding-left: 60px;
+    color: rgba(167, 167, 167, 1);
+    background-color: rgba(248, 250, 253, 1);
+}
+#SearchIconeGlass{
+    position: relative;
+    left: -417px;
+    top: 4px;
 }

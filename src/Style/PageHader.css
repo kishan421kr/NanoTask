@@ -81,13 +81,13 @@
     border-radius: 5px;
     background-color: rgba(103, 103, 103, 1);
 }
-.PageSecondDivText:hover{
-    background-color: rgba(234, 217, 255, 1);
-    color: rgba(103, 8, 204, 1);
+
+.PageSecondDivText:hover {
+  background-color: rgba(234, 217, 255, 1);
+  color: rgba(103, 8, 204, 1);
 }
 
-
-/* .PageSecondSpan:hover{
-    background-color:rgba(103, 8, 204, 1) ;
-    color: white;
-} */
+.PageSecondDivText:hover .PageSecondSpan {
+  background-color: rgba(103, 8, 204, 1);
+  color: white;
+}

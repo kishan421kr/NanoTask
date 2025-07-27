@@ -25,9 +25,9 @@ const SideNavbar=({activeCheck})=>{
                         </div>
                     </div>
 
-                    <div className="sideMenuDIV">
+                    <div className="sideMenuDIVActive">
                         <div>
-                            <img src="/icons/buyerMeeting.png" className="sideDivMenuImg" alt="" />Buyer Meeting
+                            <img src="/icons/buyerMeeting.png"  className="sideDivMenuImg" alt=""  />Buyer Meeting
                         </div>
                     </div>
 

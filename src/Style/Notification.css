@@ -1,5 +1,6 @@
 .icon-img-wrapper {
-  background-color: #555;
+  background-color: rgba(103, 103, 103, 1);
+  color: white;
   border-radius: 50%;
   padding: 6px;
   width: 36px;

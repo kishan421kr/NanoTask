@@ -12,7 +12,7 @@
     padding: 20px;
     display: flex;
     justify-content: start;
-    gap: 10px;
+    gap: 12px;
 }
 .BuyerMeetingHeadDiv{
     color: rgba(149, 149, 149, 1);
@@ -22,11 +22,13 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
+    padding: 10px;
     
 }
 .bu{
     color: rgba(149, 149, 149, 1);
     font-weight: 500;
+    padding: 10px;
 }
 #tableHeadings{
     text-align: start;
@@ -115,3 +117,52 @@ td:last-child, th:last-child {
   z-index: 3;
 }
 
+.statusBtn {
+  padding: 5px 10px;
+  border-radius: 8px;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  border: none;
+  cursor: default;
+}
+
+.status-completed {
+  background-color:rgba(41, 185, 95, 1);
+}
+
+.status-upcoming {
+  background-color: rgba(250, 176, 32, 1);
+}
+
+.status-follow-up {
+  background-color:rgba(39, 125, 255, 1);
+}
+
+.status-rescheduled {
+  background-color:rgba(130, 16, 251, 1);
+}
+
+.status-overdue {
+  background-color:rgba(211, 10, 13, 1);
+}
+
+.status-in-progress {
+  background-color: rgba(234, 110, 50, 1);
+
+}
+
+.status-ongoing {
+  /* background-color:rgba(41, 185, 95, 1); */
+  background-color: rgba(0, 0, 0, 1);
+}
+
+.status-draft {
+  background-color:rgba(103, 103, 103, 1);
+}
+
+.status-archived {
+  background-color:rgba(250, 196, 197, 1);
+  color: rgba(211, 10, 13, 1);
+  border: 1px solid rgba(211, 10, 13, 1);
+}

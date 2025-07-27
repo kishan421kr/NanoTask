@@ -4,6 +4,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 
 import "../Style/PageHader.css"
 import BuyerMeeting from "../pages/BuyerMeeting";
+import ActionItems from "./ActiveItems";
 const PageHader=({status})=>{
     return(
         <>
@@ -27,7 +28,7 @@ Buyer Meeting List View</span>
                     </div>
                 </div>
                 <BuyerMeeting/>
-
+                <ActionItems/>
                 <div style={{display:"flex",
                     justifyContent:"space-between",
                     padding:"20px"

@@ -3,8 +3,7 @@
   top: 100px;
   right: 20px;
   z-index: 100;
-  /* height: 475px;
-  width: 375px; */
+ 
 }
 
 .note {
@@ -24,12 +23,12 @@
    display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 15px;           /* thoda padding */
+  padding: 10px 15px;           
   border: 1px solid #ddd;     
   background-color: #fff;
 }
 
-.title {
+.title2 {
   font-size: 18px;
   color: #222;
 }
@@ -50,16 +49,13 @@
   flex-direction: column;
 }
 
-/* UPDATED: poore row ke charo taraf border */
 .row {
   display: flex;
   align-items: flex-start;
   padding: 12px;
   position: relative;
   border: 1px solid #ddd;
-  border-top: none;    /* poora border */
-  /* border-radius: 6px;        thoda rounded corners */
-  /* margin-bottom: 10px;       rows ke beech gap */
+  border-top: none;    
 }
 
 
@@ -68,7 +64,7 @@
   height: 36px;
   border-radius: 50%;
   margin-right: 10px;
-  /* no border or padding here */
+ 
 }
 
 .info {
@@ -80,13 +76,14 @@
   font-size: 14px;
   margin: 0;
   color: #333;
-  /* no border here */
+  line-height: 12px;
 }
 
 .text {
   font-size: 12px;
   color: #555;
   margin: 2px 0;
+  line-height: 16px;
 }
 
 .link {
@@ -98,6 +95,7 @@
   font-size: 11px;
   color: #aaa;
   margin-top: 0;
+  line-height: 12px;
 }
 
 .icon {

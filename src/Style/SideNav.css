@@ -54,6 +54,23 @@
     background-color: rgba(234, 217, 255, 1);
     color: rgba(130, 16, 251, 1);
 }
+.sideMenuDIVActive{
+    padding: 8px 10px 8px 20px;
+    height: 45px;
+    width: inherit;
+    color: rgba(103, 103, 103, 1);
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background-color: rgba(234, 217, 255, 1);
+    color: rgba(130, 16, 251, 1);
+}
+.sideMenuDIVActive div{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
 
 .sideMenuDIV div{
     width: 100%;

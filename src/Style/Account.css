@@ -1,6 +1,7 @@
 #AccountMainDiv{
     background-color: white;
     position: absolute;
+    top: 100px;
     right: 0;
 }
 #AccountInnerDiv{

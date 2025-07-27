@@ -1,5 +1,6 @@
 import React from 'react';
 import { AiOutlineClose } from 'react-icons/ai';
+import { LuCalendarDays } from "react-icons/lu";
 import "../Style/Notification.css"
 const NotificationPanel = ({status}) => {
   return (
@@ -9,14 +10,14 @@ const NotificationPanel = ({status}) => {
 
         <div className="card">
           <div className="top">
-            <h3 className="title">Notifications</h3>
+            <h3 className="title2">Notifications</h3>
             <span className="new">5 new</span>
           </div>
 
           <div className="rows">
             
             <div className="row">
-              <img src="onlyprofile.png" alt="user" className="img" />
+              <img src="/profilepice.png" alt="user" className="img" />
               <div className="info">
                 <p className="msg">Task completed</p>
                 <p className="text">
@@ -30,7 +31,7 @@ const NotificationPanel = ({status}) => {
            
             <div className="row">
               <div className="icon-img-wrapper">
-                <img src="calander.png" alt="calendar" className="icon-img" />
+                <LuCalendarDays />
               </div>
               <div className="info">
                 <p className="msg">Meeting Created</p>
@@ -46,7 +47,8 @@ const NotificationPanel = ({status}) => {
             
             <div className="row">
               <div className="icon-img-wrapper">
-                <img src="calander.png" alt="calendar" className="icon-img" />
+               <LuCalendarDays />
+
               </div>
               <div className="info">
                 <p className="msg">Action Item Added</p>
@@ -61,7 +63,7 @@ const NotificationPanel = ({status}) => {
 
    
             <div className="row">
-              <img src="onlyprofile.png" alt="user" className="img" />
+              <img src="/profilepice.png" alt="user" className="img" />
               <div className="info">
                 <p className="msg">Task assigned</p>
                 <p className="text">

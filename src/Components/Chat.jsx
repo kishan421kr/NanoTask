@@ -9,13 +9,13 @@ const Chat = ({status}) => {
 
       <div className="card">
         <div className="top">
-          <h3 className="title">Chat</h3>
+          <h3 className="title2">Chat</h3>
           <span className="new">5 new</span>
         </div>
 
         <div className="rows">
           <div className="row">
-            <img src="onlyprofile.png" alt="user" className="img" />
+            <img src="/profilepice.png" alt="user" className="img" />
             <div className="info">
               <p className="msg">New Message</p>
               <p className="text">
@@ -27,7 +27,7 @@ const Chat = ({status}) => {
           </div>
 
           <div className="row">
-            <img src="onlyprofile.png" alt="user" className="img" />
+            <img src="/profilepice.png" alt="user" className="img" />
             <div className="info">
               <p className="msg">New Message</p>
               <p className="text">
@@ -39,7 +39,7 @@ const Chat = ({status}) => {
           </div>
 
           <div className="row">
-            <img src="onlyprofile.png" alt="user" className="img" />
+            <img src="/profilepice.png" alt="user" className="img" />
             <div className="info">
               <p className="msg">New Message</p>
               <p className="text">
@@ -51,7 +51,7 @@ const Chat = ({status}) => {
           </div>
 
           <div className="row">
-            <img src="onlyprofile.png" alt="user" className="img" />
+            <img src="/profilepice.png" alt="user" className="img" />
             <div className="info">
               <p className="msg">New Message</p>
               <p className="text">
